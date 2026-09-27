@@ -1,0 +1,6 @@
+# Ignore Firebase/Google service account keys
+datasets/serviceAccountKey.json
+
+backend/serviceAccountKey.json
+
+serviceAccountKey.json

@@ -1,0 +1,788 @@
+{
+  "warehouses": {
+    "W001": {
+      "warehouse_details": {
+        "name": "Electronic Warehouse",
+        "location": "Shaikpet, Hyderabad",
+        "total_capacity_units": 1000,
+        "Dimensions": {
+          "rows": 5,
+          "columns": 10,
+          "total_boxes": 50,
+          "box_capacity_units": 20,
+          "occupied_boxes": 28,
+          "empty_boxes": 22
+        },
+        "current_stock_units": 443,
+        "status": "active"
+      },
+      "Storage": {
+        "box_001": {
+          "shelf_row": 1,
+          "shelf_col": 1,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_001",
+          "quantity_stored": 20
+        },
+        "box_002": {
+          "shelf_row": 1,
+          "shelf_col": 2,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_001",
+          "quantity_stored": 20
+        },
+        "box_003": {
+          "shelf_row": 1,
+          "shelf_col": 3,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_001",
+          "quantity_stored": 5
+        },
+        "box_004": {
+          "shelf_row": 1,
+          "shelf_col": 4,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_002",
+          "quantity_stored": 20
+        },
+        "box_005": {
+          "shelf_row": 1,
+          "shelf_col": 5,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_002",
+          "quantity_stored": 20
+        },
+        "box_006": {
+          "shelf_row": 1,
+          "shelf_col": 6,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_002",
+          "quantity_stored": 20
+        },
+        "box_007": {
+          "shelf_row": 1,
+          "shelf_col": 7,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_003",
+          "quantity_stored": 20
+        },
+        "box_008": {
+          "shelf_row": 1,
+          "shelf_col": 8,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_003",
+          "quantity_stored": 10
+        },
+        "box_009": {
+          "shelf_row": 1,
+          "shelf_col": 9,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_004",
+          "quantity_stored": 20
+        },
+        "box_010": {
+          "shelf_row": 1,
+          "shelf_col": 10,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_004",
+          "quantity_stored": 5
+        },
+        "box_011": {
+          "shelf_row": 2,
+          "shelf_col": 1,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_005",
+          "quantity_stored": 20
+        },
+        "box_012": {
+          "shelf_row": 2,
+          "shelf_col": 2,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_005",
+          "quantity_stored": 20
+        },
+        "box_013": {
+          "shelf_row": 2,
+          "shelf_col": 3,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_006",
+          "quantity_stored": 15
+        },
+        "box_014": {
+          "shelf_row": 2,
+          "shelf_col": 4,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_007",
+          "quantity_stored": 10
+        },
+        "box_015": {
+          "shelf_row": 2,
+          "shelf_col": 5,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_008",
+          "quantity_stored": 20
+        },
+        "box_016": {
+          "shelf_row": 2,
+          "shelf_col": 6,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_009",
+          "quantity_stored": 20
+        },
+        "box_017": {
+          "shelf_row": 2,
+          "shelf_col": 7,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_009",
+          "quantity_stored": 15
+        },
+        "box_018": {
+          "shelf_row": 2,
+          "shelf_col": 8,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_010",
+          "quantity_stored": 20
+        },
+        "box_019": {
+          "shelf_row": 2,
+          "shelf_col": 9,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_010",
+          "quantity_stored": 20
+        },
+        "box_020": {
+          "shelf_row": 2,
+          "shelf_col": 10,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_010",
+          "quantity_stored": 10
+        },
+        "box_021": {
+          "shelf_row": 3,
+          "shelf_col": 1,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_011",
+          "quantity_stored": 18
+        },
+        "box_022": {
+          "shelf_row": 3,
+          "shelf_col": 2,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_012",
+          "quantity_stored": 20
+        },
+        "box_023": {
+          "shelf_row": 3,
+          "shelf_col": 3,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_012",
+          "quantity_stored": 8
+        },
+        "box_024": {
+          "shelf_row": 3,
+          "shelf_col": 4,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_013",
+          "quantity_stored": 20
+        },
+        "box_025": {
+          "shelf_row": 3,
+          "shelf_col": 5,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_013",
+          "quantity_stored": 2
+        },
+        "box_026": {
+          "shelf_row": 3,
+          "shelf_col": 6,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_014",
+          "quantity_stored": 20
+        },
+        "box_027": {
+          "shelf_row": 3,
+          "shelf_col": 7,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_014",
+          "quantity_stored": 13
+        },
+        "box_028": {
+          "shelf_row": 3,
+          "shelf_col": 8,
+          "box_capacity": 20,
+          "status": "occupied",
+          "product_id": "product_015",
+          "quantity_stored": 12
+        },
+        "box_029": {
+          "shelf_row": 3,
+          "shelf_col": 9,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_030": {
+          "shelf_row": 3,
+          "shelf_col": 10,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_031": {
+          "shelf_row": 4,
+          "shelf_col": 1,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_032": {
+          "shelf_row": 4,
+          "shelf_col": 2,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_033": {
+          "shelf_row": 4,
+          "shelf_col": 3,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_034": {
+          "shelf_row": 4,
+          "shelf_col": 4,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_035": {
+          "shelf_row": 4,
+          "shelf_col": 5,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_036": {
+          "shelf_row": 4,
+          "shelf_col": 6,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_037": {
+          "shelf_row": 4,
+          "shelf_col": 7,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_038": {
+          "shelf_row": 4,
+          "shelf_col": 8,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_039": {
+          "shelf_row": 4,
+          "shelf_col": 9,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_040": {
+          "shelf_row": 4,
+          "shelf_col": 10,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_041": {
+          "shelf_row": 5,
+          "shelf_col": 1,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_042": {
+          "shelf_row": 5,
+          "shelf_col": 2,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_043": {
+          "shelf_row": 5,
+          "shelf_col": 3,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_044": {
+          "shelf_row": 5,
+          "shelf_col": 4,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_045": {
+          "shelf_row": 5,
+          "shelf_col": 5,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_046": {
+          "shelf_row": 5,
+          "shelf_col": 6,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_047": {
+          "shelf_row": 5,
+          "shelf_col": 7,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_048": {
+          "shelf_row": 5,
+          "shelf_col": 8,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_049": {
+          "shelf_row": 5,
+          "shelf_col": 9,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        },
+        "box_050": {
+          "shelf_row": 5,
+          "shelf_col": 10,
+          "box_capacity": 20,
+          "status": "empty",
+          "product_id": null,
+          "quantity_stored": 0
+        }
+      },
+      "products": {
+        "product_001": {
+          "product_details": {
+            "name": "Laptop",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 45,
+            "reorder_level": 10,
+            "unit_price": 55000,
+            "supplier_id": "supplier_01"
+          },
+          "storage": {
+            "box_001": {
+              "shelf_row": 1,
+              "shelf_col": 1,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_002": {
+              "shelf_row": 1,
+              "shelf_col": 2,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_003": {
+              "shelf_row": 1,
+              "shelf_col": 3,
+              "quantity": 5,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_002": {
+          "product_details": {
+            "name": "Smartphone",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 60,
+            "reorder_level": 15,
+            "unit_price": 25000,
+            "supplier_id": "supplier_02"
+          },
+          "storage": {
+            "box_004": {
+              "shelf_row": 1,
+              "shelf_col": 4,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_005": {
+              "shelf_row": 1,
+              "shelf_col": 5,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_006": {
+              "shelf_row": 1,
+              "shelf_col": 6,
+              "quantity": 20,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_003": {
+          "product_details": {
+            "name": "Wireless Mouse",
+            "category": "Accessories",
+            "unit": "pcs",
+            "total_quantity": 30,
+            "reorder_level": 10,
+            "unit_price": 600,
+            "supplier_id": "supplier_03"
+          },
+          "storage": {
+            "box_007": {
+              "shelf_row": 1,
+              "shelf_col": 7,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_008": {
+              "shelf_row": 1,
+              "shelf_col": 8,
+              "quantity": 10,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_004": {
+          "product_details": {
+            "name": "Keyboard",
+            "category": "Accessories",
+            "unit": "pcs",
+            "total_quantity": 25,
+            "reorder_level": 10,
+            "unit_price": 1200,
+            "supplier_id": "supplier_03"
+          },
+          "storage": {
+            "box_009": {
+              "shelf_row": 1,
+              "shelf_col": 9,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_010": {
+              "shelf_row": 1,
+              "shelf_col": 10,
+              "quantity": 5,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_005": {
+          "product_details": {
+            "name": "Monitor",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 40,
+            "reorder_level": 8,
+            "unit_price": 12000,
+            "supplier_id": "supplier_01"
+          },
+          "storage": {
+            "box_011": {
+              "shelf_row": 2,
+              "shelf_col": 1,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_012": {
+              "shelf_row": 2,
+              "shelf_col": 2,
+              "quantity": 20,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_006": {
+          "product_details": {
+            "name": "Office Chair",
+            "category": "Furniture",
+            "unit": "pcs",
+            "total_quantity": 15,
+            "reorder_level": 5,
+            "unit_price": 5500,
+            "supplier_id": "supplier_04"
+          },
+          "storage": {
+            "box_013": {
+              "shelf_row": 2,
+              "shelf_col": 3,
+              "quantity": 15,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_007": {
+          "product_details": {
+            "name": "Desk",
+            "category": "Furniture",
+            "unit": "pcs",
+            "total_quantity": 10,
+            "reorder_level": 4,
+            "unit_price": 8000,
+            "supplier_id": "supplier_04"
+          },
+          "storage": {
+            "box_014": {
+              "shelf_row": 2,
+              "shelf_col": 4,
+              "quantity": 10,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_008": {
+          "product_details": {
+            "name": "Printer",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 20,
+            "reorder_level": 5,
+            "unit_price": 9000,
+            "supplier_id": "supplier_05"
+          },
+          "storage": {
+            "box_015": {
+              "shelf_row": 2,
+              "shelf_col": 5,
+              "quantity": 20,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_009": {
+          "product_details": {
+            "name": "Router",
+            "category": "Networking",
+            "unit": "pcs",
+            "total_quantity": 35,
+            "reorder_level": 10,
+            "unit_price": 2200,
+            "supplier_id": "supplier_06"
+          },
+          "storage": {
+            "box_016": {
+              "shelf_row": 2,
+              "shelf_col": 6,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_017": {
+              "shelf_row": 2,
+              "shelf_col": 7,
+              "quantity": 15,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_010": {
+          "product_details": {
+            "name": "Headphones",
+            "category": "Accessories",
+            "unit": "pcs",
+            "total_quantity": 50,
+            "reorder_level": 15,
+            "unit_price": 1800,
+            "supplier_id": "supplier_03"
+          },
+          "storage": {
+            "box_018": {
+              "shelf_row": 2,
+              "shelf_col": 8,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_019": {
+              "shelf_row": 2,
+              "shelf_col": 9,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_020": {
+              "shelf_row": 2,
+              "shelf_col": 10,
+              "quantity": 10,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_011": {
+          "product_details": {
+            "name": "Webcam",
+            "category": "Accessories",
+            "unit": "pcs",
+            "total_quantity": 18,
+            "reorder_level": 8,
+            "unit_price": 2500,
+            "supplier_id": "supplier_02"
+          },
+          "storage": {
+            "box_021": {
+              "shelf_row": 3,
+              "shelf_col": 1,
+              "quantity": 18,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_012": {
+          "product_details": {
+            "name": "External HDD",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 28,
+            "reorder_level": 10,
+            "unit_price": 4500,
+            "supplier_id": "supplier_01"
+          },
+          "storage": {
+            "box_022": {
+              "shelf_row": 3,
+              "shelf_col": 2,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_023": {
+              "shelf_row": 3,
+              "shelf_col": 3,
+              "quantity": 8,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_013": {
+          "product_details": {
+            "name": "USB Cable",
+            "category": "Accessories",
+            "unit": "pcs",
+            "total_quantity": 22,
+            "reorder_level": 20,
+            "unit_price": 250,
+            "supplier_id": "supplier_03"
+          },
+          "storage": {
+            "box_024": {
+              "shelf_row": 3,
+              "shelf_col": 4,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_025": {
+              "shelf_row": 3,
+              "shelf_col": 5,
+              "quantity": 2,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_014": {
+          "product_details": {
+            "name": "Power Bank",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 33,
+            "reorder_level": 12,
+            "unit_price": 1600,
+            "supplier_id": "supplier_02"
+          },
+          "storage": {
+            "box_026": {
+              "shelf_row": 3,
+              "shelf_col": 6,
+              "quantity": 20,
+              "box_capacity": 20
+            },
+            "box_027": {
+              "shelf_row": 3,
+              "shelf_col": 7,
+              "quantity": 13,
+              "box_capacity": 20
+            }
+          }
+        },
+        "product_015": {
+          "product_details": {
+            "name": "Speaker",
+            "category": "Electronics",
+            "unit": "pcs",
+            "total_quantity": 12,
+            "reorder_level": 6,
+            "unit_price": 3200,
+            "supplier_id": "supplier_05"
+          },
+          "storage": {
+            "box_028": {
+              "shelf_row": 3,
+              "shelf_col": 8,
+              "quantity": 12,
+              "box_capacity": 20
+            }
+          }
+        }
+      }
+    }
+  }
+}

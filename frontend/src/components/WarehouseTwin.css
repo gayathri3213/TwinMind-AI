@@ -1,0 +1,271 @@
+.twin-container {
+    background: #111827;
+    border-radius: 16px;
+    padding: 24px;
+    color: white;
+    width: 100%;
+}
+
+
+.twin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.twin-header h2 {
+    margin: 0;
+}
+
+
+.twin-header p {
+    color: #9ca3af;
+}
+
+
+.status {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+
+/* =========================
+   WAREHOUSE GRID
+   ========================= */
+
+.warehouse-layout {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 12px;
+
+    background: #1f2937;
+    padding: 25px;
+    border-radius: 12px;
+
+    overflow: visible;
+}
+
+
+/* =========================
+   STORAGE BOX
+   ========================= */
+
+.storage-box {
+
+    position: relative;
+
+    height: 100px;
+
+    overflow: visible;
+
+    border-radius: 10px;
+
+    background: #374151;
+
+    border: 2px solid #6b7280;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    transition:
+        transform 0.2s,
+        border-color 0.2s;
+
+}
+
+
+.storage-box:hover {
+
+    transform: scale(1.05);
+
+    border-color: #60a5fa;
+
+    z-index: 20;
+
+}
+
+
+/* =========================
+   FILL LEVEL
+   ========================= */
+
+.box-fill {
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    background: #2563eb;
+
+    opacity: 0.75;
+
+    border-radius:
+        0 0 7px 7px;
+
+    transition:
+        height 0.5s ease;
+
+}
+
+
+/* =========================
+   BOX CONTENT
+   ========================= */
+
+.box-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    text-align: center;
+
+}
+
+
+.box-id {
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+}
+
+
+.box-icon {
+
+    font-size: 22px;
+
+}
+
+
+.box-quantity {
+
+    font-size: 11px;
+
+    color: #e5e7eb;
+
+}
+
+
+/* =========================
+   TOOLTIP
+   ========================= */
+
+.box-tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 12px);
+    transform: translateX(-50%);
+
+    width: 220px;
+
+    background: #030712;
+    border: 1px solid #4b5563;
+    border-radius: 10px;
+    padding: 14px;
+
+    z-index: 1000;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+    pointer-events: none;
+}
+
+/* Tooltip for the top row */
+.top-row-box .box-tooltip {
+    top: calc(100% + 12px);
+    bottom: auto;
+}
+
+
+.box-tooltip h3 {
+
+    margin-top: 0;
+
+    margin-bottom: 12px;
+
+    color: #60a5fa;
+
+}
+
+
+.box-tooltip p {
+
+    margin: 7px 0;
+
+    font-size: 12px;
+
+    color: #d1d5db;
+
+}
+
+
+.box-tooltip strong {
+
+    color: white;
+
+}
+
+
+/* =========================
+   LEGEND
+   ========================= */
+
+.legend {
+
+    display: flex;
+
+    gap: 25px;
+
+    margin-top: 20px;
+
+    color: #d1d5db;
+
+    font-size: 13px;
+
+}
+
+
+.legend div {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
+
+
+.legend-box {
+
+    width: 18px;
+
+    height: 18px;
+
+    border-radius: 4px;
+
+    background: #374151;
+
+    border: 1px solid #6b7280;
+
+}
+
+
+.legend-filled {
+
+    background: #2563eb;
+
+}
