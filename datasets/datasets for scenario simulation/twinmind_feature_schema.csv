@@ -1,0 +1,16 @@
+feature,source_or_definition,type,model_use
+current_inventory,Firebase product total_quantity,numeric,Yes
+reorder_level,Firebase product reorder_level,numeric,Yes
+inventory_to_reorder_ratio,current_inventory / reorder_level,numeric,Yes
+unit_price,Firebase product unit_price; should be transformed/normalized rather than raw due currency/scale mismatch,numeric,"Prefer derived percentile, not raw"
+supplier_id,Firebase supplier_id mapped to training SUP_1..SUP_10,categorical,Yes
+category,Firebase category,categorical,"Optional; training dataset has no category, so do not use unless training data is extended"
+scenario_type,User-selected one of 5 controlled scenarios,categorical,Yes
+severity,User-selected Low/Medium/High,categorical,Yes
+units_sold,Historical/current demand feature; must be supplied from an operational history source,numeric,Yes
+demand_forecast,Historical/current forecast feature,numeric,Yes
+supplier_lead_time_days,Supplier feature from training/historical profile,numeric,Yes
+external_indicators,Route/commodity/geopolitical indicators aligned to prediction date,numeric,Yes
+SKU_ID,Training-only synthetic identifier,categorical,No
+impact_percentage,Regression target,target,No
+direction,Classification target,target,No

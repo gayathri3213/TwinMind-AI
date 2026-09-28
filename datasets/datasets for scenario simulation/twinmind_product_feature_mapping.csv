@@ -1,0 +1,16 @@
+product_id,product_name,category,current_inventory,reorder_level,unit_price,supplier_id,inventory_to_reorder_ratio,firebase_supplier_price_percentile,mapped_supplier_id,representative_training_sku,representative_training_unit_price,representative_training_unit_cost,representative_training_lead_time,training_price_percentile,percentile_distance,use_product_id_as_model_feature,use_product_name_as_model_feature,use_category_as_model_feature,use_supplier_id_as_model_feature,use_inventory_as_model_feature,use_reorder_level_as_model_feature,use_inventory_to_reorder_ratio_as_model_feature,use_price_percentile_as_model_feature
+product_001,Laptop,Electronics,45,10,55000,SUP_1,4.5,1.0,SUP_1,SKU_23,28.74,19.43,3.0,1.0,0.0,False,False,False,True,True,True,True,True
+product_002,Smartphone,Electronics,60,15,25000,SUP_2,4.0,1.0,SUP_2,SKU_7,29.28,19.07,4.0,1.0,0.0,False,False,False,True,True,True,True,True
+product_003,Wireless Mouse,Accessories,30,10,600,SUP_3,3.0,0.5,SUP_3,SKU_32,18.8,12.77,2.0,0.5,0.0,False,False,False,True,True,True,True,True
+product_004,Keyboard,Accessories,25,10,1200,SUP_3,2.5,0.75,SUP_3,SKU_29,22.47,17.01,11.0,0.75,0.0,False,False,False,True,True,True,True,True
+product_005,Monitor,Electronics,40,8,12000,SUP_1,5.0,0.6666666666666666,SUP_1,SKU_19,18.56,12.67,8.0,0.6521739130434783,0.01449275362318836,False,False,False,True,True,True,True,True
+product_006,Office Chair,Furniture,15,5,5500,SUP_4,3.0,0.5,SUP_4,SKU_43,18.615,13.829999999999998,10.5,0.5,0.0,False,False,False,True,True,True,True,True
+product_007,Desk,Furniture,10,4,8000,SUP_4,2.5,1.0,SUP_4,SKU_11,29.29,17.93,4.0,1.0,0.0,False,False,False,True,True,True,True,True
+product_008,Printer,Electronics,20,5,9000,SUP_5,4.0,1.0,SUP_5,SKU_38,34.25,19.3,13.0,1.0,0.0,False,False,False,True,True,True,True,True
+product_009,Router,Networking,35,10,2200,SUP_6,3.5,1.0,SUP_6,SKU_40,29.05,17.47,7.0,1.0,0.0,False,False,False,True,True,True,True,True
+product_010,Headphones,Accessories,50,15,1800,SUP_3,3.3333333333333335,1.0,SUP_3,SKU_11,34.79,19.54,4.0,1.0,0.0,False,False,False,True,True,True,True,True
+product_011,Webcam,Accessories,18,8,2500,SUP_2,2.25,0.6666666666666666,SUP_2,SKU_20,20.86,12.31,9.0,0.6666666666666666,0.0,False,False,False,True,True,True,True,True
+product_012,External HDD,Electronics,28,10,4500,SUP_1,2.8,0.3333333333333333,SUP_1,SKU_4,17.18,10.59,12.0,0.34782608695652173,0.014492753623188415,False,False,False,True,True,True,True,True
+product_013,USB Cable,Accessories,22,20,250,SUP_3,1.1,0.25,SUP_3,SKU_36,12.29,7.41,12.0,0.25,0.0,False,False,False,True,True,True,True,True
+product_014,Power Bank,Electronics,33,12,1600,SUP_2,2.75,0.3333333333333333,SUP_2,SKU_1,10.7,6.93,9.0,0.3333333333333333,0.0,False,False,False,True,True,True,True,True
+product_015,Speaker,Electronics,12,6,3200,SUP_5,2.0,0.5,SUP_5,SKU_49,14.29,8.59,12.0,0.47619047619047616,0.023809523809523836,False,False,False,True,True,True,True,True

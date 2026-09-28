@@ -1,0 +1,21 @@
+{
+    "dataset_rows": 88698,
+    "training_rows": 70958,
+    "testing_rows": 17740,
+    "input_size": 109,
+    "regression": {
+        "MAE": 11.114767074584961,
+        "RMSE": 16.063532577158174,
+        "R2": 0.6536073684692383
+    },
+    "classification": {
+        "Accuracy": 0.9134160090191658,
+        "Precision": 0.9196851685483777,
+        "Recall": 0.9134160090191658,
+        "F1": 0.908626861042812
+    },
+    "direction_classes": [
+        "downward",
+        "upward"
+    ]
+}
