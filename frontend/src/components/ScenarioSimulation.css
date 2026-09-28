@@ -11,6 +11,10 @@
 }
 
 
+/* =========================================================
+   HEADER
+   ========================================================= */
+
 .scenario-header {
     max-width: 900px;
 
@@ -34,6 +38,10 @@
 }
 
 
+/* =========================================================
+   MAIN CARD
+   ========================================================= */
+
 .scenario-card {
     max-width: 900px;
 
@@ -51,6 +59,10 @@
         0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
+
+/* =========================================================
+   FORM
+   ========================================================= */
 
 .form-group {
     margin-bottom: 25px;
@@ -70,11 +82,16 @@
 }
 
 
-.form-group select,
-.form-group textarea {
+/* =========================================================
+   PRODUCT
+   ========================================================= */
+
+.form-group select {
     width: 100%;
 
     box-sizing: border-box;
+
+    height: 46px;
 
     background: #1f2937;
 
@@ -84,35 +101,202 @@
 
     border-radius: 8px;
 
-    padding: 13px;
+    padding: 0 13px;
 
     font-size: 14px;
 
     outline: none;
+
+    cursor: pointer;
 }
 
 
-.form-group select:focus,
-.form-group textarea:focus {
+.form-group select:focus {
     border-color: #60a5fa;
 }
 
 
-.form-group textarea {
-    resize: vertical;
+/* =========================================================
+   SCENARIO TYPE
+   ========================================================= */
 
-    min-height: 150px;
+.scenario-options {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 12px;
 }
 
 
-.query-hint {
-    margin-top: 7px;
+.scenario-option {
+    min-height: 58px;
 
-    font-size: 12px;
+    display: flex;
 
-    color: #6b7280;
+    align-items: center;
+
+    gap: 12px;
+
+    background: #1f2937;
+
+    color: #d1d5db;
+
+    border: 1px solid #374151;
+
+    border-radius: 9px;
+
+    padding: 12px 15px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        border-color 0.2s,
+        color 0.2s,
+        transform 0.15s;
 }
 
+
+.scenario-option:hover {
+    background: #273244;
+
+    border-color: #4b5563;
+
+    color: white;
+}
+
+
+.scenario-option:active {
+    transform: scale(0.99);
+}
+
+
+.scenario-option.selected {
+    background: #26354a;
+
+    border-color: #60a5fa;
+
+    color: white;
+
+    box-shadow:
+        0 0 0 1px rgba(96, 165, 250, 0.12);
+}
+
+
+/* Scenario icon */
+
+.scenario-icon {
+    width: 32px;
+
+    height: 32px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #374151;
+
+    border-radius: 7px;
+
+    color: #9ca3af;
+
+    font-size: 16px;
+}
+
+
+.scenario-option.selected .scenario-icon {
+    background: #334155;
+
+    color: #93c5fd;
+}
+
+
+/* =========================================================
+   SCENARIO SEVERITY
+   ========================================================= */
+
+.severity-options {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+
+    width: 100%;
+}
+
+
+.severity-option {
+    min-width: 100px;
+
+    height: 42px;
+
+    background: #1f2937;
+
+    color: #9ca3af;
+
+    border: 1px solid #374151;
+
+    border-radius: 8px;
+
+    padding: 0 20px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        border-color 0.2s,
+        color 0.2s,
+        transform 0.15s;
+}
+
+
+.severity-option:hover {
+    background: #273244;
+
+    border-color: #4b5563;
+
+    color: #e5e7eb;
+}
+
+
+.severity-option:active {
+    transform: scale(0.98);
+}
+
+
+.severity-option.selected {
+    background: #26354a;
+
+    border-color: #60a5fa;
+
+    color: white;
+
+    box-shadow:
+        0 0 0 1px rgba(96, 165, 250, 0.12);
+}
+
+
+/* =========================================================
+   PREDICT BUTTON
+   ========================================================= */
 
 .simulate-button {
     background: #2563eb;
@@ -132,6 +316,8 @@
     cursor: pointer;
 
     transition: 0.2s;
+
+    margin-top: 2px;
 }
 
 
@@ -148,6 +334,10 @@
     cursor: not-allowed;
 }
 
+
+/* =========================================================
+   ERROR
+   ========================================================= */
 
 .scenario-error {
     margin-top: 20px;
@@ -166,7 +356,9 @@
 }
 
 
-/* RESULT */
+/* =========================================================
+   RESULT
+   ========================================================= */
 
 .scenario-result {
     margin-top: 35px;
@@ -209,6 +401,10 @@
     color: #d1d5db;
 }
 
+
+/* =========================================================
+   IMPACT
+   ========================================================= */
 
 .impact-container {
     display: flex;
@@ -254,6 +450,10 @@
     padding-top: 5px;
 }
 
+
+/* =========================================================
+   DIRECTION
+   ========================================================= */
 
 .direction-arrow {
     font-size: 45px;
@@ -304,7 +504,9 @@
 }
 
 
-/* EXPLANATION */
+/* =========================================================
+   EXPLANATION
+   ========================================================= */
 
 .explanation-section {
     margin-top: 25px;
@@ -344,24 +546,33 @@
 
 .explanation-box {
     margin-top: 20px;
+
     padding: 20px;
+
     background: #111827;
+
     border: 1px solid #374151;
+
     border-radius: 12px;
 
     width: 100%;
+
     box-sizing: border-box;
 
-    /* Allow the complete explanation to be displayed */
     min-height: 80px;
+
     height: auto;
+
     max-height: none;
 
     overflow: visible;
 
     line-height: 1.7;
+
     white-space: normal;
+
     overflow-wrap: anywhere;
+
     word-break: normal;
 }
 
@@ -376,16 +587,25 @@
     margin-bottom: 7px;
 }
 
+
 .explanation-text {
     margin: 10px 0 0;
+
     line-height: 1.7;
+
     white-space: pre-wrap;
+
     overflow-wrap: anywhere;
 
     color: #9ca3af;
 
     font-size: 15px;
 }
+
+
+/* =========================================================
+   LOADING
+   ========================================================= */
 
 .scenario-loading {
     color: white;
@@ -394,14 +614,55 @@
 }
 
 
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
 @media (max-width: 700px) {
 
     .scenario-page {
         padding: 20px;
+
+        margin-left: 0;
     }
+
+
+    .scenario-options {
+        grid-template-columns: 1fr;
+    }
+
+
+    .severity-options {
+        flex-wrap: wrap;
+    }
+
 
     .impact-container {
         flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .scenario-card {
+        padding: 20px;
+    }
+
+
+    .scenario-header h1 {
+        font-size: 25px;
+    }
+
+
+    .severity-options {
+        flex-direction: column;
+    }
+
+
+    .severity-option {
+        width: 100%;
     }
 
 }
